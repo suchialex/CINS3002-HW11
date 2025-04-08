@@ -25,11 +25,11 @@ We maintain employee inventory, by writing code to accomplish the following oper
   </summary>
 
   - Create project
-  - Copy contents of main.py 
+  - Create main.py and copy contents of main.py from previous assignment
   - Create a folder `hw11`
   - Inside hw11 copy contents of validations.py
   - Inside hw11 create new file db_functions.py
-  - Copy employee_operations() function from from previous assignments class_functions.py (from employees folder)
+  - Copy employee_operations() function from previous assignments class_functions.py (from employees folder)
   - Inside hw11, ceate new file `employees.db`
 </details>
 
