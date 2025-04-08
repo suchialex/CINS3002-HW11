@@ -29,8 +29,7 @@ We maintain employee inventory, by writing code to accomplish the following oper
   - Create a folder `hw11`
   - Inside hw11 copy contents of validations.py
   - Inside hw11 create new file db_functions.py
-  - Copy employee_operations() function from previous assignments class_functions.py (from employees folder)
-  - Inside hw11, ceate new file `employees.db`
+  - Copy code from class_functions.py from previous assignment hw10 (from employees folder)
 </details>
 
 ## In db_functions.py
@@ -41,7 +40,7 @@ We maintain employee inventory, by writing code to accomplish the following oper
   </summary>
 
   - Remove the function call to file_to_dictionary() 
-  - Open connection to database named employees.db (import the required package)  
+  - Open connection to database named hw11/employees.db (import the required package)  
     ⏩ Refer to Tutorial 14-5 a,b
   - Get the cursor for the connection ⏩ Refer to Tutorial 14-5c
   - Comment out the rest of the code (we will uncomment as we need it)
@@ -82,17 +81,17 @@ We maintain employee inventory, by writing code to accomplish the following oper
 
 <details>
 <summary>
-  ✅ Define add_employee()
+  ✅ Modify add_employee()
 </summary>
 
   - It accepts two parameters, connection and cursor
   - It doesn't return anything
   - In the function body:
-    - Get employee name, department, salary, email using the validate functions in validations.py
+    - After getting employee name, department, salary, email using the validate functions in validations.py
     - Create a tuple of the above values (⏩ Refer to Tutorial 7-27c)
     - Write a parametrized statement to insert these values into the table `employees` (⏩ Refer to 14-7e)
     - Using the cursor, execute this by passing this statement and tuple as parameters      
-    💡 We don't need to generate next ID and insert it because the database does it for you  
+    💡 We don't need to generate next ID and insert it because the database does it for us 
     - Commit the changes (⏩ Refer to 14-5e)  
     🚩 Make sure the number of elements in the tuple match the number of `?`
 
@@ -118,7 +117,7 @@ We maintain employee inventory, by writing code to accomplish the following oper
   - It accepts one parameter, cursor
   - It returns nothing
   - In function body:
-    - Write a SQL statement that selects all the rows from the table `employees` (⏩ Refer to 14-5e) 
+    - Write a SQL statement that selects all the rows from the table `employees` (⏩ Refer to 14-8a) 
     - Execute that statement using the cursor that is passed as the parameter
     - Get the rows using fetchall and store in a variable
     - This is a list of tuples or multi-dimensional list  
