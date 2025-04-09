@@ -42,7 +42,8 @@
     ✅ Modify employee_operations()
   </summary>
 
-  - Remove the function call to file_to_dictionary() 
+  - Remove the function calls to file_to_dictionary() and dictionary_to_file()
+  - Also delete those two functions
   - Open connection to database named hw11/employees.db (import the required package)  
     ⏩ Refer to Tutorial 14-5 a,b
   - Get the cursor for the connection ⏩ Refer to Tutorial 14-5c
