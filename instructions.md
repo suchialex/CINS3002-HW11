@@ -5,15 +5,18 @@
     Assignment Instructions
   </summary>
  
-We maintain employee inventory, by writing code to accomplish the following operations using SQL statements     
-- Add Employee
-- Lookup Employee
-- Update Name
-- Update Department
-- Update Salary
-- Delete Employee
-- Display Employees  
-  
+- We maintain employee inventory, by writing code to accomplish the following operations using SQL statements     
+  - Add Employee
+  - Lookup Employee
+  - Update Name
+  - Update Department
+  - Update Salary
+  - Delete Employee
+  - Display Employees
+
+- Download [pretty print module](https://github.com/suchialex/pretty-print/blob/main/suchi_pretty_print.py)
+- Here is a link to [Chapter 14 Tutorial](https://github.com/suchialex/CINS3002-Tutorial/blob/main/tutorial/Ch14.md)
+
 </details>
 
 
