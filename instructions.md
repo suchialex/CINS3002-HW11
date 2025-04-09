@@ -114,7 +114,7 @@
 
 <details>
 <summary>
-  ✅ Define display_employees()
+  ✅ Modify display_employees()
 </summary>
 
   - It accepts one parameter, cursor
@@ -145,7 +145,7 @@
 
 <details>
 <summary>
-  ✅ Define lookup_employee()
+  ✅ Modify lookup_employee()
 </summary>
 
   - It accepts parameters, cursor, empid   
@@ -173,7 +173,7 @@
 
 <details>
 <summary>
-  ✅ Define update_employee_name()
+  ✅ Modify update_employee_name()
 </summary>
 
   - Parameters: connection, cursor  
@@ -213,7 +213,7 @@
 
 <details>
 <summary>
-  ✅ Define delete_employee()
+  ✅ Modify delete_employee()
 </summary>
 
   - Parameters: connection, cursor  
